@@ -1,0 +1,21 @@
+# Ignore the large raw dataset
+data/PS_20174392719_1491204439457_log.csv
+
+# Ignore the mini-dataset
+data/aml_mini_clean.csv
+
+# Ignore Python environment and cache
+__pycache__/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
