@@ -6,8 +6,8 @@ from datetime import datetime
 # --- 1. THE ASSET LOADER (The Memory) ---
 @st.cache_resource
 def load_assets():
-    model = joblib.load('C:/Projects/11_Financial_AML/model/aml_xgb_model.pkl')
-    cols = joblib.load('C:/Projects/11_Financial_AML/model/model_columns.pkl')
+    model = joblib.load('model/aml_xgb_model.pkl')
+    cols = joblib.load('model/model_columns.pkl')
     return model, cols
 
 model, model_columns = load_assets()
